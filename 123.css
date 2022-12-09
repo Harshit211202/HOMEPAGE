@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image:url("blue-757263.jpg");
+    width : 100vw;
+    height : 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .text{
+    font-size: 100px;
+    justify-content: center;
+    position: relative;
+    top: 40vh;
+} */
+h1{
+    /* padding-top: 5%; */
+    margin-bottom: 5%;
+    font-size: 4rem;
+    color: #fffc7f;
+    padding-right: 0.6%;
+    /* border: 2px solid red; */
+    box-shadow: 13px 14px 15px rgb(228, 105, 105), -53px 37px 45px #ff000025;
+}
+p{
+    padding-left: 9%;
+    padding-right: 9%;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: rgb(66, 255, 255);
+}
+@media (max-width:1000px){
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:610px){
+    h1{
+        font-size: 2.8rem;
+        /* margin-bottom: 2%; */
+    }
+    p{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:450px){
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:380px){
+    h1{
+        font-size: 2rem;
+        /* margin-bottom: 2%; */
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
